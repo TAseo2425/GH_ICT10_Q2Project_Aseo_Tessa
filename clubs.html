@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>HNK High - Clubs</title>
+</head>
+<style>
+    body{
+        color: #1e404b;
+        background-color: #E0F7FA;
+        text-align: center;
+        font-family: "Sour Gummy", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+        .navbar {
+        background-color: #2A8E8A;
+        border-radius: 0;
+    }
+    .navbar-nav {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin: 0;
+        padding: 30px;
+    }
+    .nav-item {
+        margin-right: 30px;
+    }
+    .nav-link {
+        font-weight: 500;
+    }
+    .btn{
+        border-color: #1e404b;
+    }
+    .title{
+        background-color: #6EC0BD;
+        padding: 20px;
+    }
+    #clubs{
+        text-align: center;
+        margin: 30px;
+        padding: 10px;
+    }
+    #club_desc{
+        text-align: left;
+        background-color: #FFF7F0;
+        padding: 20px;
+        margin: 30px;
+    }
+
+</style>
+<body> <py-script src="clubs.py"></py-script>
+
+    <!-- Navigation Bar -->
+    <div class="navbar navbar-expand-sm">
+		<div class="container-fluid">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a></li>
+				<li class="nav-item">
+					<a class="nav-link" href="calculator.html">GWA Calculator</a></li>
+			    	<li class="nav-item">
+					<a class="nav-link" href="clubs.html">Our Clubs</a></li>
+			    	<li class="nav-item">
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search">
+	       			<button class="btn btn-outline-light" type="submit">Search</button>
+	      		</form>
+			</ul>
+		</div>
+	</div>
+    
+    <div class="title">
+        <h1>Our Clubs</h1>
+    </div>
+
+    <div id="entire">
+        <div id="clubs">
+            <button id="club1" class="btn btn-light" py-click="math_club" >Club 1</button>
+            <button id="club2" class="btn btn-light" py-click="science_club" >Club 2</button>
+            <button id="club2" class="btn btn-light" py-click="varsity" >Club 3</button>
+        </div>
+
+        <div id="club_desc">
+            <p>Email for procedure: clubs@hnkhigh.edu</p>
+        </div>
+    </div> 
+
+</body>
+</html>
