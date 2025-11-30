@@ -30,28 +30,29 @@ club3 = {
 
 def math_club(k):
     document.getElementById('club_desc').innerHTML = " "
-    display(f'Name: {club1['name']}', target='club_desc')
-    display(f'Description: {club1['desc']}', target='club_desc')
-    display(f'Time: {club1['time']}', target='club_desc')
-    display(f'Location: {club1['location']}', target='club_desc')
-    display(f'Club Moderator: {club1['moderator']}', target='club_desc')
-    display(f'Category: {club1['category']}', target='club_desc')
+    display(f"Name: {club1['name']}", target='club_desc')
+    display(f"Description: {club1['desc']}", target='club_desc')
+    display(f"Time: {club1['time']}", target='club_desc')
+    display(f"Location: {club1['location']}", target='club_desc')
+    display(f"Club Moderator: {club1['moderator']}", target='club_desc')
+    display(f"Category: {club1['category']}", target='club_desc')
 
 def science_club(k):
     document.getElementById('club_desc').innerHTML = " "
-    display(f'Name: {club2['name']}', target='club_desc')
-    display(f'Description: {club2['desc']}', target='club_desc')
-    display(f'Time: {club2['time']}', target='club_desc')
-    display(f'Location: {club2['location']}', target='club_desc')
-    display(f'Club Moderator: {club2['moderator']}', target='club_desc')
-    display(f'Category: {club2['category']}', target='club_desc')
+    display(f"Name: {club2['name']}", target='club_desc')
+    display(f"Description: {club2['desc']}", target='club_desc')
+    display(f"Time: {club2['time']}", target='club_desc')
+    display(f"Location: {club2['location']}", target='club_desc')
+    display(f"Club Moderator: {club2['moderator']}", target='club_desc')
+    display(f"Category: {club2['category']}", target='club_desc')
     
 def varsity(k):
     document.getElementById('club_desc').innerHTML = " "
-    display(f'Name: {club3['name']}', target='club_desc')
-    display(f'Description: {club3['desc']}', target='club_desc')
-    display(f'Time: {club3['time']}', target='club_desc')
-    display(f'Location: {club3['location']}', target='club_desc')
-    display(f'Club Moderator: {club3['moderator']}', target='club_desc')
-    display(f'Category: {club3['category']}', target='club_desc')
+    display(f"Name: {club3['name']}", target='club_desc')
+    display(f"Description: {club3['desc']}", target='club_desc')
+    display(f"Time: {club3['time']}", target='club_desc')
+    display(f"Location: {club3['location']}", target='club_desc')
+    display(f"Club Moderator: {club3['moderator']}", target='club_desc')
+    display(f"Category: {club3['category']}", target='club_desc')
+
     
