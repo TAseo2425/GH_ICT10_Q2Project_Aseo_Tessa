@@ -22,11 +22,11 @@ def calculate(k):
     sciave = int(scigrade) * unit1
     mathave = int(mathgrade) * unit2
     ictave = int(ictgrade) * unit3
-    enggave = int(enggrade) * unit4 
+    engave = int(enggrade) * unit4 
     filave = int(filgrade) * unit5
     veave = int(vegrade) * unit6
     num_of_units = unit1 + unit2 + unit3 + unit4 + unit5 + unit6
-    gwa = round((sciave + mathave + ictave + enggave + filave + veave) / num_of_units, 2) 
+    gwa = round((sciave + mathave + ictave + engave + filave + veave) / num_of_units, 2) 
 
     # displays
     document.getElementById('output').innerHTML = " "
@@ -40,4 +40,5 @@ def calculate(k):
     display(f"{subjects[4]} = {filgrade}", target='output')
     display(f"{subjects[5]} = {vegrade}", target='output')
  
+
     display(f"General Weighted Average: {gwa}", target="output")
